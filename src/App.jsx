@@ -1,14 +1,15 @@
+import React from 'react';
 import './App.css'
 import { Card } from './components/cart';
+import { Form } from './components/form';
 
 function App() {
-  const test = (e) =>{
-    console.log(e.target.value);
-  }
+  const [data, setData] = React.useState( [] )
   return (
     <>
+      <Form setData ={setData} />
+      {data.map((item) => <Card key={item.id} {...item}/>)}
      <Card/>
-      <input onChange={test} placeholder='text' />
     
     </>
   )

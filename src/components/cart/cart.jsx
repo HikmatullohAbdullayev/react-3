@@ -1,10 +1,20 @@
 import React from "react";
 
-export const Card = () =>{
+export const Card = ({ism, familya,id}) =>{
 
     return(
         <>
-            <h1>salom</h1>
+        <div>
+        <h1>{ism}</h1>
+        <h1>{familya}</h1>
+        <button>del</button>
+        <button>edit</button>
+        
+        <h2>salom</h2>
+
+        </div>
+
+
         </>
     )
 }
