@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'
 import { Card } from './components/cart';
 import { Form } from './components/form';
+import { Modal } from './components/modal';
 
 function App() {
   const [data, setData] = React.useState( [] )
