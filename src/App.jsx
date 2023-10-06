@@ -1,5 +1,5 @@
-// import { useState } from 'react'
 import './App.css'
+import { Card } from './components/cart';
 
 function App() {
   const test = (e) =>{
@@ -7,10 +7,8 @@ function App() {
   }
   return (
     <>
-    <h1>salom</h1>
-     
+     <Card/>
       <input onChange={test} placeholder='text' />
-      {/* <h1>{e.target.value}</h1> */}
     
     </>
   )
