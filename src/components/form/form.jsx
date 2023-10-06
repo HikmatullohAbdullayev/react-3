@@ -19,7 +19,7 @@ export const Form = ({ setData ,edit, id , close }) => {
 
   return (
     <>
-      <form onSubmit={submit}>
+      <form  onSubmit={submit}>
        <div>
        <input
           onChange={changeInput}

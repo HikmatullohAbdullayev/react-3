@@ -10,7 +10,7 @@ function App() {
     <>
       <Form setData ={setData} />
       {data.map((item) => <Card key={item.id} setData={setData} {...item}/>)}
-     <Card/>
+     <Card />
     
     </>
   )
