@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Form setData ={setData} />
-      {data.map((item) => <Card key={item.id} {...item}/>)}
+      {data.map((item) => <Card key={item.id} setData={setData} {...item}/>)}
      <Card/>
     
     </>

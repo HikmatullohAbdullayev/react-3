@@ -10,8 +10,7 @@ export const Form = ({ setData }) => {
       e.preventDefault()
       
     setData((p) => [...p , {...inputs , id: Date.now()  }]) 
-    setInputs({ ism: "", familya: "" })
-}
+    setInputs({ ism: "", familya: "" })}
 
   return (
     <>
