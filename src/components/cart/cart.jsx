@@ -20,7 +20,7 @@ export const Card = ({ ism, familya, id, setData }) => {
 
             </div>
             <Modal isOpen={open} close={setOpen}>
-                <Form/>
+                <Form edit id= {id} close={setOpen} setData={setData} />
             </Modal>
 
 
